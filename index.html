@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiningPoint - Airdrop Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">MININGPOINT v1.0</div>
+            <div class="user-info">User: CryptoMiner_01 | Status: <span class="success">ONLINE</span></div>
+        </div>
+        
+        <div class="terminal">
+            <div class="prompt">
+                <i class="fas fa-terminal"></i>
+                <span class="prompt-text">Welcome to MiningPoint Airdrop Program</span>
+            </div>
+            
+            <div class="output">
+                <span class="info">Type 'help' to see available commands</span>
+            </div>
+            
+            <div class="dashboard">
+                <div class="card">
+                    <h3>Total Points</h3>
+                    <div class="value" id="totalPoints">1,250</div>
+                </div>
+                <div class="card">
+                    <h3>Today's Mining</h3>
+                    <div class="value" id="todayMining">85</div>
+                </div>
+                <div class="card">
+                    <h3>Referral Bonus</h3>
+                    <div class="value" id="referralBonus">365</div>
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-primary" id="mineBtn">
+                    <i class="fas fa-digging"></i> Start Mining
+                </button>
+                <button class="btn" id="checkinBtn">
+                    <i class="fas fa-calendar-check"></i> Daily Check-in
+                </button>
+                <button class="btn" id="referralBtn">
+                    <i class="fas fa-users"></i> Referral Program
+                </button>
+            </div>
+            
+            <div class="referral-section">
+                <h3><i class="fas fa-share-alt"></i> Your Referral Code</h3>
+                <div class="referral-code">MPT-7X9Y-2Z8A</div>
+                <p>Share this code with friends and earn 10% of their mining points!</p>
+            </div>
+            
+            <div class="output" id="commandOutput"></div>
+            
+            <div class="input-line">
+                <span class="prompt">></span>
+                <input type="text" id="commandInput" placeholder="Type command here...">
+            </div>
+        </div>
+        
+        <div class="footer">
+            MiningPoint Airdrop Project &copy; 2023 | All rights reserved
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
